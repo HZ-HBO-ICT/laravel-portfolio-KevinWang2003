@@ -1,0 +1,160 @@
+/* Navigation Bar */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    width: 99%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+i {
+    font-size: 30px;
+}
+
+header nav li {
+    float: right;
+}
+
+header nav li a {
+    display: block;
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+header nav li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+
+.active {
+    background-color: lightblue;
+    color: white;
+}
+
+/* Body */
+
+body {
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #656565,#222222);
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+/* Font */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+/* Dashboard Specific */
+
+#main table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#main table thead {
+    background-color: #333333;
+    color: white;
+}
+#main table tbody {
+    background-color: #EBECF0;
+}
+
+#main .monitor {
+    width: 970px;
+    height: 670px;
+    background-color: lightblue;
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+progress {
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+
+}
+progress:after {
+    content: attr(value)'EC';
+    color: black;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#main .monitor h2 {
+    top: 25px;
+}
+
+#main .blog p {
+    font-family: Calibri;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    line-height: 10px;
+}
+
+/* Blog Specific */
+
+.content {
+    padding: 0 18px;
+    background-color: lightblue;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 3px 3px black;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    width: 101%;
+    background-color: #333333;
+    left: -10px;
+    margin-top: 50px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

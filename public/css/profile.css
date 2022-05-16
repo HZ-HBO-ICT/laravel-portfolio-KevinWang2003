@@ -1,0 +1,120 @@
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  color: black;
+  top: 10px;
+
+}
+
+p {
+  font-family: Calibri;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  line-height: 20px;
+}
+
+.gegevens, .baan, .games {
+    background-color: lightblue;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: 3px 3px black;
+}
+
+.gegevens {
+  position: relative;
+  display: block;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 405px;
+}
+
+.gegevens .image1 {
+  position: absolute;
+  top: 20px;
+  left: 75%;
+}
+
+.gegevens ul {
+    position: relative;
+    margin-left: -10px;
+    top: 15px;
+}
+
+.gegevens h2 {
+    position: relative;
+    margin-left: 30px;
+    top: 20px;
+}
+
+.baan {
+  position: relative;
+  display: block;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  height: 335px;
+}
+
+.baan ul {
+    position: relative;
+    top: 20px;
+    margin: -20px;
+}
+
+.baan h2 {
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+.baan .image2 {
+  position: absolute;
+  left: 70%;
+}
+
+.games {
+  position: relative;
+  display: block;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 3px;
+    display: block;
+    padding: 0;
+}
+
+.games ul {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+    margin-left: -20px;
+}
+
+.games h2 {
+    position: relative;
+    margin: 0;
+    left: 20px;
+}
+
+.games .video {
+  position: absolute;
+  left: 40%;
+}

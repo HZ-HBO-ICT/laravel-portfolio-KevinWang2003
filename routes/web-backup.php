@@ -21,10 +21,11 @@ use App\Http\Controllers\GradesController;
 |
 */
 
-Route::resource('/', ViewController::class);
-Route::resource('/profile', ProfileController::class);
-Route::resource('/portfolio', PortfolioController::class);
-Route::resource('/dashboard', DashboardController::class);
+Route::get('/', [ViewController::class, 'show']);
+Route::get('/posts/{slug}', [PostsController::class, 'show']);
+Route::get('/profile', [ProfileController::class, 'show']);
+Route::get('/portfolio', [PortfolioController::class, 'show']);
+Route::get('/dashboard', [DashboardController::class, 'show']);
 
 // Shows all stored articles
 Route::get('/articles/index', [ArticlesController::class, function () {
